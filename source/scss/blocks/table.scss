@@ -1,0 +1,14 @@
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #555;
+  padding: 5px;
+}
+
+tr[data-id] {
+  &:hover {
+    cursor: pointer;
+  }
+}
